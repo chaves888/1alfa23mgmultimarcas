@@ -1,4 +1,6 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
     background-color: #f4f4f4;
 }
 section {
@@ -33,7 +35,7 @@ nav.menu ul li a{
 }
 
 nav.menu ul li a:hover{
-    background-color: black;
+    background-color: rgb(26, 24, 4);
 }
 
 a{
@@ -41,10 +43,82 @@ a{
 }
 .banner img {
     width: 100%;
+    height: 500px;
 }
 .marcas ul li {
     display: inline-block;
     font-size: 35px;
     width: 16%;
     padding: 50px;
+}
+.item {
+    display: inline-block;
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    color: #474747;
+}
+.item .title {
+    font-size: 23px;
+    font-weight: bold;
+
+}
+.item .valor {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    font-size: 17px;
+}
+.financiamento {
+    margin-top: 25px;
+    background: #fdda1f;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+    line-height: 40px;
+}
+.botao a {
+    background-color: #17c700;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    color: white;
+    width: 550px;
+    font-size: 20px;
+}
+.botao {
+    margin-top: 10px;
+}
+
+.produtos{
+    text-align: center;
+    margin: 50px 0;
+}
+.produtos .titulo{
+    font-size: 45px;
+    font-weight: bold;
+}
+.produtos .subtitulo{
+    font-size: 30 px;
+    font-weight:  bold;
+    color: #474747;
+    
+    margin-top: 15px;
+}
+.sublinhado{
+    width: 150px;
+    background: #fdda1f;
+    height: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+a:hover {
+    transition:  0.8s;
+    opacity: 0.8;
 }

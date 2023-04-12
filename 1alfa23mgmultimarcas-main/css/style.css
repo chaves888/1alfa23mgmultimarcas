@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+}
+section {
+    width: 1200px;
+    margin: 0 auto;
+}
+#header {
+    padding: 50px;
+}
+#header div{
+    display: inline-block;
+}
+#header .contato{
+    float: right;
+    background-color: #fdda1f;
+}
+
+nav.menu {
+    background-color: #fdda1f;
+    text-align: center;
+
+}
+nav.menu ul li {
+    display: inline;
+    font-size: 17px;
+}
+nav.menu ul li a{
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    padding: 17px;
+    transition: background .3s;
+}
+
+nav.menu ul li a:hover{
+    background-color: rgb(68, 57, 6);
+}
+
+a{
+    text-decoration: none;
+}
+.banner img {
+    width: 100%;
+    height: 500px;
+}
+.marcas ul li {
+    display: inline-block;
+    font-size: 35px;
+    width: 16%;
+    padding: 50px;
+}
+.item {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5%;
+    font-size: 20px;
+/*text-align: center;*/
+    line-height: 30px;
+    color: #474747;
+}
+.item .title {
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.item .valor {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    font-size: 17px;
+}
+.financiamento {
+    margin-top: 25px;
+    background: #fdda1f;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+    line-height: 40px;
+}
+.botao a {
+    background-color: #17c700;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    color: white;
+    width: 550px;
+    font-size: 20px;
+}
+.botao {
+    margin-top: 10px;
+}
+
+.produtos, .depoimentos{
+    text-align: center;
+    margin: 50px 0;
+}
+.titulo{
+    font-size: 45px;
+    font-weight: bold;
+}
+.subtitulo{
+    font-size: 30px;
+    font-weight:  bold;
+    color: #474747;
+    margin-top: 15px;
+}
+.sublinhado{
+    width: 150px;
+    background: #fdda1f;
+    height: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+a:hover {
+    transition: 0.3;
+    opacity: 0.8;
+}
+
+footer{
+    background-color: #474747;
+}
+footer .item{
+    color: #fff
+}
+
+.valor:hover {
+    transition: 0.5s;
+    opacity: 0.8;
+}
+.depoimentos .item{
+    border: 1px solid #474747;
+    width:  calc(30% - 2px);
+}
+.depoimentos img{
+    width: 100px;
+    border-radius: 50px;
+}
+.depoimentos .cliente{
+    margin-bottom: -100px;
+    padding-top: 10px;
+}
+.depoimentos .cliente .nome{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contato input, .contato textarea{
+    border-bottom: 2px solid #fff;
+    height: 35px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    max-width: 250px;
+}
+.contato textarea {
+    height: 50px;
+    max-width: 250px;
+}
+.contato button {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    font-size: 15px;
+    display: block;
+    border-radius: 25px;
+}
+.item .contato {
+    line-height: 30px;
+}
+
+.contato h3{
+    margin-bottom: 20px;
+
+}
+.contato p{
+    line-height: 50px;
+}
+footer a{
+    color: #fff;
+
+}
+footer .social li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 40px;
+}
+footer .menu li {
+    line-height: 35px;
+}
+.content {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 50px;
+    
+}

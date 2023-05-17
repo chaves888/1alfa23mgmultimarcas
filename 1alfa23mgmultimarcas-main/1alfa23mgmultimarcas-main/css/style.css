@@ -35,7 +35,7 @@ nav.menu ul li a{
 }
 
 nav.menu ul li a:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(68, 57, 6);
 }
 
 a{
@@ -53,7 +53,7 @@ a{
 }
 .item {
     display: inline-block;
-    width: 24%;
+    width: 30%;
     padding: 1.5%;
     font-size: 20px;
 /*text-align: center;*/
@@ -64,9 +64,6 @@ a{
     font-size: 23px;
     font-weight: bold;
 
-}
-.item .desc {
-    font-weight: bold;
 }
 
 .item .valor {
@@ -204,60 +201,4 @@ footer .menu li {
     line-height: 25px;
     padding: 50px;
     
-}
-.div-50 {
-    width: 49%;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.faleconosco h3 {
-    font-size: 25px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.faleconosco input, .faleconosco select {
-    background: #d2d2d2;
-    width: 250px;
-    padding: 10px 2px;
-}
-input[type=radio] {
-    width: 25px;
-    float: left;
-    margin: 5px 0;
-}
-.faleconosco ul li{
-    display: inline-block;
-    background-color: #d2d2d2 ;
-    padding: 10px ;
-}
-.campo {
-    margin: 10px;
-
-}
-.faleconosco textarea {
-    background: transparent;
-    width: 500px;
-    padding: 10px 2px;
-    border: 1px solid #fdda1f;
-    border-radius: 20px ;
-}
-input[type="submit"] {
-    background-color: #fdda1f ;
-    border-radius: 20px;
-}
-.sobre p{
-    text-align: justify;
-    width: 95%;
-}
-.clear{
-    clear: both;
-}
-/*SCREEN 480PX*/
-@media(max-width:480px){
-    
-    .contato {
-        display: none !important;
-    }
 }
